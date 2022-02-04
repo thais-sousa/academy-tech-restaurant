@@ -1,0 +1,58 @@
+.welcome h2 {
+    color: whitesmoke;
+    margin-top: 50px;
+    padding: 10px; 
+    text-align: center;
+    text-transform: uppercase;  
+}
+
+.highlights h4 {  
+    color: rgb(143, 27, 27);
+    margin: 40px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.highlights__list {
+    margin: 20px;
+    text-align: center;
+}
+
+.highlights__list li {
+    display: inline-block;
+    height: 400px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.highlights__list li img { 
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.highlights__list h5 {
+    border-bottom: 1px solid rgb(114, 7, 7);
+    color: whitesmoke;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.highlights__list p {
+    font-family: 'Roboto', sans-serif;
+    height: 80px;
+    padding: 10px;
+    text-align: center
+}
+
+.highlights__list_name {
+    color: gray;
+}
+
+.highlights__list_price {
+    color: white;
+    font-weight: bold;
+}
