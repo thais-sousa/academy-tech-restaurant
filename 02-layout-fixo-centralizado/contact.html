@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fale Conosco - Bonsai Sushi Bar</title>
+        <link rel="stylesheet" href="src/css/general.css">
+        <link rel="stylesheet" href="src/css/contact.css">
+        <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&family=Montserrat:wght@300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="icon" type="image" href="src/img/icon.png">  
+    </head>
+    <body>
+        <div class="container">
+            <div class="content-left">
+                <header class="cabecalho">
+                    <img src="src/img/logo.png" alt="Logo do Bonsai Sushi Bar" class="cabecalho__logo">
+                    <h1 class="cabecalho__first-name">Bonsai</h1>
+                    <h2 class="cabecalho__second-name">Sushi Bar</h2>
+                </header>
+    
+                <nav class="menu-navegation">
+                    <ul>
+                        <li><a href="index.html" class="menu-navegation__link">Home</a></li>
+                        <li><a href="about.html" class="menu-navegation__link">O Bonsai</a></li>
+                        <li><a href="menu.html" class="menu-navegation__link">Cardápio</a></li>
+                        <li><a href="menu-premium.html" class="menu-navegation__link">Cardápio Premium</a></li>
+                        <li><a href="contact.html" class="menu-navegation__link">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <main class="content-right">  
+                <section class="localization">
+                    <h2>Visite-nos</h2>
+                    <article class="adress">
+                        <p>
+                            Avenida das Nações Unidas, 12995 <br>
+                            Brooklin, São Paulo - SP 
+                        </p>
+                        <p>
+                            (11) 0000.0000 <br>
+                            (11) 0.0000.0000 (WhatsApp)
+                        </p>
+                    </article>
+                    <article class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.963459701058!2d-46.69825928561869!3d-23.605643384660883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce573433dd2aa3%3A0xd5796b9fb756e2b4!2sCreditas!5e0!3m2!1sen!2sbr!4v1643637682217!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </article>
+                    
+                </section>  
+                <section class="contact">
+                    <h2>Fale Conosco</h2>
+
+                    <form>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Digite aqui o seu nome" required>
+
+                        <label for="phone">Telefone</label>
+                        <input type="text" id="phone" placeholder="(xx)xxxxx-xxxx" required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seuemail@email.com" required>
+                       
+                       
+                        <label for="message">Mensagem</label>
+                        <textarea cols="30" rows="8" id="message" placeholder="Digite a sua mensagem"></textarea> 
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>  
+                <footer>
+                    <p class="copyright">&copy; Copyright Bonsai Sushi Bar - Todos os direitos reservados</p>
+                </footer>                          
+            </main>
+        </div> 
+    </body>
+</html>
