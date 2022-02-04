@@ -1,0 +1,101 @@
+:root {
+    --black: #000000;
+    --red: #810000;
+    --gray: #808080;
+    --white: #fffafa;
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+
+.container {
+    background-color: var(--black);
+    height: auto;
+    position: relative;
+    width: 100%;
+    z-index: 1;  
+}
+
+.content-left {
+    background-color: var(--black);
+    border-right: 1px solid var(--red);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 25%;
+    z-index: 1;
+}
+
+.content-right {
+    background-color: var(--black);
+    float: right;
+    height: auto;
+    width: 75%;    
+}
+
+.cabecalho {
+    padding: 30px;
+    text-align: center;
+}
+
+.cabecalho__logo {
+    width: 40px;
+} 
+
+.cabecalho__first-name {
+    color: var(--red);
+    font-family: 'Azeret Mono', monospace;
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cabecalho__second-name {
+    border-bottom: solid 2px var(--white);
+    color: var(--white);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: -5px;   
+    padding-bottom: 10px;
+}
+
+.menu-navegation li {
+    list-style: none;
+    padding: 20px 0; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-navegation a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.menu-navegation a:active,
+.menu-navegation a:hover {
+    color: var(--red);
+    font-weight: bold;
+}
+
+footer {
+    border-top: 2px solid var(--red);
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 100px;
+    min-height: 100%;
+    overflow: hidden;
+    padding: 50px;
+    position:relative;    
+    text-align: center;
+    width: calc (100%- 20px); 
+}
+
+.copyright {
+    color: var(--gray);
+}

@@ -1,0 +1,25 @@
+:root {
+    --red: #810000;
+}
+
+.about h2 {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about p,
+.responsibility p {
+    font-size: 14px;
+    margin: 20px;   
+    text-align: justify;
+}
+
+.responsibility h3 {
+    color: var(--red);
+    margin: 30px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
