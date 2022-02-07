@@ -6,7 +6,7 @@
 
 O Bonsai Sushi Bar é um site de comida japonesa e possui as seguintes páginas:
   - Home (Possui um bem-vinde e 3 produtos em destaque);
-  - o Bonsai (Tela com descrição do restaurante);
+  - O Bonsai (Tela com descrição do restaurante);
   - Cardápio (Com fotos da refeição, descrição e valor);
   - Cardápio Premium (Opções de sobremesa e bebidas alcoólicas com foto, descrição e valor);
   - Fale conosco (Tela com o mapa do google com a localização do restaurante, seguido por um formulário contendo nome, telefone, e-mail, mensagem e botão de envio).
